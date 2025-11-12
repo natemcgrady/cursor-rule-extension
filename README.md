@@ -58,9 +58,9 @@ The extension uses a prompt template file to generate the instructions sent to C
 
 ### How to Modify the Prompt
 
-1. **Locate the prompt template file**: `src/prompt-template.md`
+1. **Locate the prompt template file**: `prompt-template.md` (in the extension root directory)
 
-2. **Edit the template**: Open `src/prompt-template.md` and modify the prompt text as needed. The template uses `{{INPUT_TEXT}}` as a placeholder that will be replaced with the selected text.
+2. **Edit the template**: Open `prompt-template.md` and modify the prompt text as needed. The template uses `{{INPUT_TEXT}}` as a placeholder that will be replaced with the selected text.
 
 3. **Rebuild the extension**: After making changes, rebuild the extension:
 
@@ -80,7 +80,7 @@ The prompt template is a Markdown file that contains instructions for the AI. Ke
 
 ### Example Customization
 
-If you want to add specific requirements or change the output format, simply edit `src/prompt-template.md`. For example, you could:
+If you want to add specific requirements or change the output format, simply edit `prompt-template.md`. For example, you could:
 
 - Add project-specific conventions
 - Modify the rule structure requirements

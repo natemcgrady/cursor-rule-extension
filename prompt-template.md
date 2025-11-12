@@ -80,3 +80,4 @@ Create a **Cursor Project Rule** based on the following text. Your goal is to ge
 - Save to the chosen path:
   - `.cursor/rules/{best-filename}.mdc` for project-wide rules, **or**
   - `<scoped-dir>/.cursor/rules/{best-filename}.mdc` if a scoped path is evident.
+

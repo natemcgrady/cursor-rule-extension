@@ -100,7 +100,6 @@ export function activate(context: vscode.ExtensionContext) {
       try {
         const promptPath = path.join(
           context.extensionPath,
-          "src",
           "prompt-template.md"
         );
         promptTemplate = fs.readFileSync(promptPath, "utf8");
