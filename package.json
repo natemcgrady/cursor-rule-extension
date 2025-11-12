@@ -1,0 +1,74 @@
+{
+  "name": "cursor-create-rule-from-selection",
+  "displayName": "Create Cursor Rule from Selection",
+  "description": "Quickly create Cursor project rules from selected text or terminal output. Opens Cursor chat with a comprehensive prompt to generate properly scoped .mdc rule files.",
+  "publisher": "natemcgrady",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "cursor",
+    "rules",
+    "mdc",
+    "ai",
+    "code-generation",
+    "productivity"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natemcgrady/cursor-rule-extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/natemcgrady/cursor-rule-extension/issues"
+  },
+  "homepage": "https://github.com/natemcgrady/cursor-rule-extension#readme",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "cursor-rules.createFromSelection",
+        "title": "Create Cursor Rule from Selection"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "cursor-rules.createFromSelection",
+          "when": "editorHasSelection",
+          "group": "navigation@100"
+        }
+      ],
+      "terminal/context": [
+        {
+          "command": "cursor-rules.createFromSelection",
+          "group": "navigation@100"
+        }
+      ],
+      "terminal/inline": [
+        {
+          "command": "cursor-rules.createFromSelection",
+          "group": "inline@100"
+        }
+      ]
+    }
+  },
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "build": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.6.3",
+    "vsce": "^2.15.0"
+  }
+}

@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+**/node_modules
+
+# Build output (will be included in package)
+# out/ is needed for the extension to work
+
+# Development files
+.vscode/**
+!.vscode/launch.json
+!.vscode/tasks.json
+.vscode-test/
+*.code-workspace
+
+# Source files (TypeScript)
+src/**
+tsconfig.json
+
+# Git
+.gitignore
+.gitattributes
+
+# Documentation (optional - remove if you want README in package)
+README.md
+CHANGELOG.md
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+
+# Other
+.DS_Store
+*.vsix
+.env
+.env.local
+
