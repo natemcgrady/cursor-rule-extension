@@ -18,6 +18,11 @@
     "code-generation",
     "productivity"
   ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
