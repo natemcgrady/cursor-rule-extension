@@ -2,6 +2,12 @@
 
 All notable changes to the "Create Cursor Rule from Selection" extension will be documented in this file.
 
+## [0.0.2] - 2025-11-12
+
+### Added
+
+- Moved template to root
+
 ## [0.0.1] - 2025-11-12
 
 ### Added
