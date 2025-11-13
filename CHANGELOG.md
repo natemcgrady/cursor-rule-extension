@@ -2,6 +2,12 @@
 
 All notable changes to the "Create Cursor Rule from Selection" extension will be documented in this file.
 
+## [0.0.3] - 2025-11-13
+
+### Added
+
+- Include vsix file
+
 ## [0.0.2] - 2025-11-12
 
 ### Added

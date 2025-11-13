@@ -38,10 +38,10 @@ This extension contributes the following command:
 
 ### From VSIX File (Recommended)
 
-1. Download the `cursor-create-rule-from-selection-0.0.2.vsix` file from the [GitHub repository](https://github.com/natemcgrady/cursor-rule-extension)
+1. Download the `cursor-create-rule-from-selection-0.0.#.vsix` file from the [GitHub repository](https://github.com/natemcgrady/cursor-rule-extension)
 2. Install the extension using Cursor:
    ```bash
-   cursor --install-extension cursor-create-rule-from-selection-0.2.vsix
+   cursor --install-extension cursor-create-rule-from-selection-0.0.#.vsix
    ```
 
 ### From Cursor Marketplace (hopefully coming soon)
