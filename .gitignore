@@ -7,7 +7,6 @@ dist/
 
 # VS Code
 .vscode-test/
-*.vsix
 
 # OS
 .DS_Store
