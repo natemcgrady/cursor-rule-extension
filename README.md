@@ -1,5 +1,8 @@
 # Create Cursor Rule from Selection
 
+> [!NOTE]
+> This is not an official Cursor extension. It's a hobby project created by an individual and is not affiliated with or endorsed by Cursor.
+
 A Cursor extension that helps you quickly create Cursor project rules (`.mdc` files) from selected text or terminal output. Simply select text in your editor or terminal, and the extension will open Cursor chat with a comprehensive prompt to generate a properly scoped rule file.
 
 ## Features
